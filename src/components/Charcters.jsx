@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useQuery } from "react-query";
 
-const CharactersWithQuery = () => {
+const Characters = () => {
     const [page, setPage] = useState(40);
 
     const fetchCharacters = async ({ queryKey }) => {
