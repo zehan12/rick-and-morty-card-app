@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useQuery } from "react-query";
+import Card from "./Card";
 
 const Characters = () => {
     const [page, setPage] = useState(40);
@@ -32,7 +33,7 @@ const Characters = () => {
     return (
         <div className="characters">
             {data.results.map((character) => (
-                <h1>{character.name}</h1>))}
+                <Card character={character} />))}
             <div>
                 <button
                     onClick={() => setPage((old) => Math.max(old - 1, 1))}

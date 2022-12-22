@@ -10,7 +10,6 @@ const Main = () => {
         <Fragment>
             <div className="container">
                 <QueryClientProvider client={queryClient}>
-
                     <h1>Rick and Morty</h1>
                     <Characters />
                 </QueryClientProvider>
