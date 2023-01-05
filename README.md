@@ -1,6 +1,8 @@
 # Rick and Morty Card App
 This is a simple app that displays cards for characters from the popular show Rick and Morty. Each card contains the character's name, image, status, species, and last known location. The user can navigate between pages of cards using the Previous and Next buttons.
 
+Live: https://vercel.com/zehan12/rick-and-morty-card-app/Fz1xYGYnnuUrgweATwZedZKr2XVm
+
 ## Tech Stack
 This app was built using React and makes use of the following libraries:
 
@@ -43,3 +45,6 @@ Create a new branch for your changes.
 Commit your changes and push to your fork.
 Open a pull request.
 Your pull request will be reviewed as soon as possible. Thank you for your contribution!
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
